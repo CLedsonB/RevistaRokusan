@@ -1,0 +1,70 @@
+:root {
+    --CorTexto: #f8f8f8;
+    --CorLinha: #801808;
+    --CorFundo: #000000;
+}
+div, a, li, ul, html, body {
+    margin: 0;
+    padding: 0;
+    display: block;
+
+}
+.conter {
+	margin: 0px 100px;
+    background-color: var(--CorFundo);
+    color: var(--CorTexto);
+    padding: 10px;
+}
+.texto {
+    padding: 12px;
+}
+.titulo:hover {
+    color: var(--CorTexto);
+
+}
+h2{
+    text-align: center;
+}
+h3 {
+    border: 2px solid var(--CorLinha);
+    border-bottom: #000;
+    font-weight: 800;
+    font-size: 28px;
+}
+nav {
+    background-color: var(--CorLinha);
+    font: 19px arial, sans-serif;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: var(--CorTexto);
+    display: inline;
+}
+a:hover {
+    color: #6f1381;
+}
+span {
+    font: 21px Arial;
+    line-height: 1.5;
+}
+li {
+    display: inline;
+    margin: 0px 5px;
+}
+img {
+    margin: 18px;
+}
+.paisagem {
+    float: left;
+    width: 310px;
+
+}
+.mocas {
+    float: right;
+    width: 260px;
+}
+.casal {
+    float: left;
+    width: 270px;
+}  
