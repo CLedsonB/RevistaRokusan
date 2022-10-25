@@ -12,7 +12,7 @@ body {
     height: 100%;
     width: 180%;
 }
-h2 {
+.titulo {
     text-align: center;
     font-family: 'Smokum', cursive;
     font-size: 42px;
@@ -46,6 +46,10 @@ img {
 }
 img:hover {
     border: 2px inset #000000;
-
+}
+@media (max-width: 800px) {
+    .conter {
+        overflow-x: auto;
+    }
 }
 
