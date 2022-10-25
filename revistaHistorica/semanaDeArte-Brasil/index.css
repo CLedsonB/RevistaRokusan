@@ -3,6 +3,9 @@
     --CorLinha: #cf8f59;
     --CorFundo: #f3f1b5;
 }
+html {
+    scroll-behavior: smooth;
+}
 div, a, li, ul, html, body {
     margin: 0;
     padding: 0;
@@ -57,3 +60,12 @@ img {
     margin: 18px;
     width: 360px;
 }
+@media (max-width: 800px) {
+    span {
+        font: 16px Arial;
+        line-height: 1.5;
+    }
+    .conter {
+        margin: 0 0;
+    }
+}      
