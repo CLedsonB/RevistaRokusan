@@ -3,6 +3,9 @@
     --CorLinha: #d9ff00;
     --CorFundo: #2b7e04;
 }
+html {
+    scroll-behavior: smooth;
+}
 div, a, li, ul, html, body, td, tr, th, table {
     margin: 0;
     padding: 0;
@@ -46,7 +49,7 @@ a:hover {
     color: #ffffff;
 }
 span {
-    font: 21px Arial;
+    font: 18px Arial;
     line-height: 1.5;
 }
 li {
@@ -55,5 +58,40 @@ li {
 }
 img {
     margin: 18px;
-    width: 300px;
+}
+.imgTrio {
+    width: 200px;
+}
+.imgGoverno {
+    width: 250px;
+}
+.imgAnl {
+    width: 260px;
+}
+.imgPreste {
+    width: 260px;
+}
+@media (max-width: 800px) {
+    span {
+        font: 16px Arial;
+        line-height: 1.5;
+    }
+    .conter {
+        margin: 0 0;
+    }
+    img {
+        margin: 16px;
+    }
+    .imgTrio {
+        width: 160px;
+    }
+    .imgGoverno {
+        width: 220px;
+    }
+    .imgAnl {
+        width: 240px;
+    }
+    .imgPreste {
+        width: 240px;
+    }
 }
