@@ -1,7 +1,7 @@
 :root {
     --CorTexto: #061d86;
     --CorLinha: #d9ff00;
-    --CorFundo: #2b7e04;
+    --CorFundo: #4aae1c;
 }
 html {
     scroll-behavior: smooth;
@@ -13,7 +13,7 @@ div, a, li, ul, html, body, td, tr, th, table {
 
 }
 .conter {
-	margin: 0px 100px;
+	margin: 30px;
     background-color: var(--CorFundo);
     color: var(--CorTexto);
     padding: 10px;
@@ -70,6 +70,11 @@ img {
 }
 .imgPreste {
     width: 260px;
+}
+.seta {
+    width: 40px;
+    margin: 0;
+    text-align: center;
 }
 @media (max-width: 800px) {
     span {
