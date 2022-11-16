@@ -13,7 +13,7 @@ div, a, li, ul, html, body {
 
 }
 .conter {
-	margin: 0px 100px;
+	margin: 30px;
     background-color: var(--CorFundo);
     color: var(--CorTexto);
     padding: 10px;
@@ -58,7 +58,26 @@ li {
 img {
     float: left;
     margin: 18px;
-    width: 320px;
+}
+.franco {
+    width: 200px;
+    height: 300px;
+}
+.pce {
+    width: 200px;
+
+}
+.madri {
+    width: 300px;
+}
+.guernica {
+    width: 360px;
+
+}
+.seta {
+    width: 40px;
+    margin: 0;
+    text-align: center;
 }
 @media (max-width: 800px) {
     span {
