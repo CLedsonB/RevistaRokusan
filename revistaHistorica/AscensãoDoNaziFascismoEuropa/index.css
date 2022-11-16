@@ -13,7 +13,7 @@ div, a, li, ul, html, body {
 
 }
 .conter {
-	margin: 0px 100px;
+	margin: 30px;
     background-color: var(--CorFundo);
     color: var(--CorTexto);
     padding: 10px;
@@ -59,6 +59,10 @@ img {
     float: left;
     margin: 18px;
     width: 320px;
+}
+.seta {
+    width: 40px;
+    text-align: center;
 }
 @media (max-width: 800px) {
     span {
