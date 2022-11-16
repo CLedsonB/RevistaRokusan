@@ -13,7 +13,7 @@ div, a, li, ul, html, body {
 
 }
 .conter {
-	margin: 0px 100px;
+	margin: 30px;
     background-color: var(--CorFundo);
     color: var(--CorTexto);
     padding: 10px;
@@ -61,7 +61,6 @@ img {
 .paisagem {
     float: left;
     width: 310px;
-
 }
 .mocas {
     float: right;
@@ -70,6 +69,11 @@ img {
 .casal {
     float: left;
     width: 270px;
+}
+.seta {
+    width: 40px;
+    margin: 0;
+    text-align: center;
 }  
 @media (max-width: 800px) {
     span {
@@ -77,6 +81,6 @@ img {
         line-height: 1.5;
     }
     .conter {
-        margin: 0 0;
+        margin: 0;
     }
 }    
