@@ -13,7 +13,7 @@ div, a, li, ul, html, body {
 
 }
 .conter {
-	margin: 0px 100px;
+	margin: 30px;
     background-color: var(--CorFundo);
     color: #686363;
     padding: 10px;
@@ -58,7 +58,23 @@ li {
 img {
     float: left;
     margin: 18px;
+}
+.manuel {
+    width: 250px;
+}
+.modernista {
+    width: 400px;
+}
+.cartaz {
     width: 360px;
+}
+.coluna {
+    width: 340px;
+}
+.seta {
+    width: 40px;
+    margin: 0;
+    text-align: center;
 }
 @media (max-width: 800px) {
     span {
@@ -66,6 +82,6 @@ img {
         line-height: 1.5;
     }
     .conter {
-        margin: 0 0;
+        margin: 0;
     }
 }      
