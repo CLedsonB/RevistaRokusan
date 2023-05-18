@@ -2,7 +2,7 @@
 
 ## Demostração
 
-### [Clique aqui](https://cledsonb.github.io/RevistasRokusan/)
+### [Clique aqui](https://cledsonb.github.io/RevistaRokusan/)
 
 ## Objetivo
 
